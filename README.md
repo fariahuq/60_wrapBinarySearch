@@ -12,7 +12,7 @@ The graph of this has the y-axis as an asymptote. The curve starts from negative
 * Decision between base and recursion: If the lower limit is less than high limit.
 * Solution(s) to base case(s): Return -1.
 * Solution(s) to recursion case(s): 
-* Invocation of the recursive abstraction: ```recursive( findMe, low, pageToCheck - 1); indexOf_recursive( findMe, pageToCheck + 1, hi);```
+* Invocation of the recursive abstraction: ```recursive( findMe, low, pageToCheck - 1); recursive( findMe, pageToCheck + 1, hi);```
 * leftover processing:
 ```
 low
