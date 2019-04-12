@@ -20,7 +20,7 @@ return -2;
 return pageToCheck;
 ```
 * Solution(s) to recursion case(s)
-⋅⋅* Invocation of the recursive abstraction
+** Invocation of the recursive abstraction
 ```javascript
 pageToCheck -1
 pageToCheck +1
