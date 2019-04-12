@@ -14,10 +14,10 @@ The graph of this has the y-axis as an asymptote. The curve starts from negative
 * Solution(s) to recursion case(s): 
 * Invocation of the recursive abstraction: ```indexOf_recursive( findMe, low, pageToCheck - 1); indexOf_recursive( findMe, pageToCheck + 1, hi);```
 * leftover processing:
-* combination: 
-```low
+```
+low
 high
 ```
-
+* combination:
 
 
