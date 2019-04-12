@@ -11,7 +11,7 @@ The graph of this has the y-axis as an asymptote. The curve starts from negative
 2. Six parts of a generalized recursive solution
 * Decision between base and recursion
 ```javascript
-  if( low > hi)
+  if( low > high)
   if( comparison == 0) 
 ```
 * Solution(s) to base case(s)
@@ -19,4 +19,10 @@ The graph of this has the y-axis as an asymptote. The curve starts from negative
 return -2;
 return pageToCheck;
 ```
-
+* Solution(s) to recursion case(s)
+⋅⋅* Invocation of the recursive abstraction
+```javascript
+pageToCheck -1
+pageToCheck +1
+```
+*
